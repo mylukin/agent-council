@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach, afterEach } from "vitest";
 import * as pty from "node-pty";
-import { DEFAULT_AGENTS, DEFAULT_CHAIRMAN, commandExists, filterAvailableAgents } from "./agents.js";
+import { DEFAULT_AGENTS, DEFAULT_CHAIRMAN, commandExists, filterAvailableAgents } from "../src/agents.js";
 
 // Helper to wait for output containing specific text
 function waitForOutput(

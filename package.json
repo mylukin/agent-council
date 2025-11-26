@@ -1,16 +1,39 @@
 {
   "name": "agent-council",
   "version": "0.1.0",
+  "description": "Multi-model AI council CLI that provides consensus-driven decisions using Claude, Codex, and Gemini",
   "type": "module",
+  "main": "./dist/index.js",
   "bin": {
     "agent-council": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "ai",
+    "council",
+    "multi-model",
+    "consensus",
+    "claude",
+    "codex",
+    "gemini",
+    "llm",
+    "cli"
+  ],
+  "author": "Lukin <mylukin@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mylukin/agent-council.git"
   },
   "scripts": {
     "dev": "tsx src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "chalk": "^5.3.0",
