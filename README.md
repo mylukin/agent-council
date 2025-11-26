@@ -1,5 +1,7 @@
 # Agent Council
 
+[中文文档](./README.zh-CN.md)
+
 A multi-model AI council CLI that provides consensus-driven decisions using Claude, Codex, and Gemini.
 
 ## How It Works
