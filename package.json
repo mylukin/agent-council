@@ -1,6 +1,6 @@
 {
   "name": "agent-council",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Multi-model AI council CLI that provides consensus-driven decisions using Claude, Codex, and Gemini",
   "type": "module",
   "main": "./dist/index.js",
