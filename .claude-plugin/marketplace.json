@@ -1,13 +1,35 @@
 {
   "name": "agent-council",
-  "owner": "mylukin",
-  "version": "1.0.0",
-  "description": "Multi-model AI council plugins for Claude Code",
+  "owner": {
+    "name": "Lukin",
+    "email": "mylukin@gmail.com",
+    "url": "https://github.com/mylukin"
+  },
+  "metadata": {
+    "description": "Multi-model AI council plugins for Claude Code",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "agent-council",
       "source": "./plugins/agent-council",
       "description": "Multi-model AI council for consensus-driven decisions using Claude, Codex, and Gemini",
+      "version": "1.0.0",
+      "author": {
+        "name": "Lukin",
+        "url": "https://github.com/mylukin"
+      },
+      "homepage": "https://github.com/mylukin/agent-council",
+      "repository": "https://github.com/mylukin/agent-council",
+      "license": "MIT",
+      "keywords": [
+        "multi-model",
+        "ai-council",
+        "consensus",
+        "claude",
+        "codex",
+        "gemini"
+      ],
       "agents": ["./agents/council.md"],
       "skills": ["./skills/council-decision"]
     }
